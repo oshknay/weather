@@ -1,0 +1,85 @@
+body{
+margin: 0;
+background-image: url(https://images.unsplash.com/photo-1499346030926-9a72daac6c63?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y2xvdWR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: top;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    font-family: 'Georama', sans-serif;
+    text-align: center;
+}
+#header{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+#input{
+    background-color: transparent;
+    border: 2px solid #fff;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    color: #0e1111;
+    text-align: center;
+    font-weight: 300;
+}
+#input:focus{
+    background-color: #fcf4fd;
+}
+#when-where{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+#city{
+color: #fff;
+font-size: 45px;
+font-weight: 600;
+margin: 40px 0px 10px 0px;
+}
+#data{
+    font-size: 24px;
+    font-weight: 300;
+    color: #fff;
+   margin-top: 10px;
+   display: none;
+}
+#now{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#temperature{
+    color: #fff;
+    font-size: 110px;
+    font-weight: bold;
+    text-shadow: 0px 0px 5px rgba(0, 20, 50, 0.7);
+    margin: 0px;
+    display: none;
+}
+#feelslike{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    text-shadow: 0px 0px 5px rgba(0, 20, 50);
+    display: none;
+
+}
+#conditions, #variation{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 300;
+    text-shadow: 0px 0px 5px rgba(0, 20, 50);
+    display: none;
+}
+#variation{
+font-style: italic;
+}
